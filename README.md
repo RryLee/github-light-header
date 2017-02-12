@@ -10,4 +10,4 @@ git clone git@github.com:RryLee/github-light-header.git
 
 打开 chrome://extensions
 
-![](./doc/img.png)
+![](./doc/img.jpeg)
