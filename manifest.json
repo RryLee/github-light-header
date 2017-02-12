@@ -1,0 +1,29 @@
+{
+  "name": "Github Light Header",
+  "manifest_version": 2,
+  "description": "Change back github header-bar light",
+  "version": "0.0.1",
+  "icons": {
+  	"128": "icon.png",
+  	"32": "icon.png"
+  },
+  "permissions": [
+    "contentSettings",
+    "https://github.com/*",
+    "https://gist.github.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*",
+        "https://gist.github.com/*"
+      ],
+      "js": [
+        "src/header.js"
+      ],
+      "css": [
+      	// "src/header.css"
+      ]
+    }
+  ]
+}
