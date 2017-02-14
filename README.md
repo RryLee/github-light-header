@@ -1,3 +1,5 @@
+> 2017.02.14, github 头部样式写死了，只能通过重写 css 的方式去改了
+
 恢复 2017.02.10 之前的 github 头部导航样式
 
 注入 js 去掉 header-dark 这个 class 就 ok。
